@@ -1,5 +1,6 @@
   <head>
     <title>Josh DeFriez</title>
+    <link href="https://fonts.googleapis.com/css?family=Alegreya+Sans+SC|Open+Sans|Roboto|Tulpen+One" rel="stylesheet">
   </head>
 <div id="container">
   <body>
@@ -8,10 +9,13 @@
     <a href=#about>About</a>
     <a href=#portfolio>Portfolio</a>
     <a href=#contact>Contact</a>
-    <p> Josh DeFriez </p>
+    <a class="JoshDeFriez" style="float:right"><b>Josh DeFriez</b></a>
     </div>
-    <div> <img src="https://avatars3.githubusercontent.com/u/16778776?v=3&u=fe5d4dc6d87dc4e3c1898b767323f5a8bbf38988&s=400"></img>
-      <div> ABOUT
+    <div class="fixed-bg">
+    </div>
+      <div>
+        <h1>Hi, I'm Josh DeFriez</h1>
+        <p> I graduated in 2015 from Utah State University with a BS in Economics and a BA in International Relations, and from the University of Chicago in 2016 with an MA in Social Sciences. </p>
         <div> PORTFOLIO
           <div> CONTACT
           </div>
