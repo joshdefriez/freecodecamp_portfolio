@@ -1,7 +1,7 @@
 /* the navigation bar */
 .navbar {
   overflow: hidden;
-  background-color: #F8F8FF;
+  background-color: #e8ecf2;
   position: fixed;
   top: 0;
   width: 100%;
@@ -13,19 +13,47 @@
   display: block;
   color: #000000;
   text-align: center;
-  padding: 14px 16px;
+  padding: 12px 25px;
   text-decoration: none;
   font-size: 180%;
-  font-family: sans-serif;
+  font-family: 'Open Sans', sans-serif;
 }
 
-.navbar p {
-  float: center;
+.navbar a:last-child {
+  float: right;
   display: block;
   color: #000000;
   text-align: center;
-  padding: 14px 16px;
+  padding: 10px 16px;
   text-decoration: none;
-  font-size: 300%;
-  font-family: sans-serif;
+  font-size: 270%;
+  font-family: 'Alegreya Sans SC', sans-serif;
+}
+
+
+
+.fixed-bg {
+  background-image: url("https://images.pexels.com/photos/65911/winter-nature-season-trees-65911.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb");
+    /* Set a specified height, or the minimum height for the background image */
+    min-height: 500px;
+    /* Set background image to fixed (don't scroll along with the page) */
+    background-attachment: fixed;
+    /* Center the background image */
+    background-position: center;
+    /* Set the background image to no repeat */
+    background-repeat: no-repeat;
+    /* Scale the background image to be as large as possible */
+    background-size: cover;
+}
+
+h1 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: normal;
+  padding: 12px 20px;
+  margin-left: 0;
+  font-size: 170%
+}
+
+p {
+  font-family: 'Open Sans', sans-serif;
 }
