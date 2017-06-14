@@ -4,6 +4,8 @@
   </head>
 <div id="container">
   <body>
+    <div id="home">
+    </div>
   <div class="navbar">
     <a href=#home>Home</a>
     <a href=#about>About</a>
@@ -13,7 +15,7 @@
     </div>
     <div class="fixed-bg">
     </div>
-      <div>
+      <div id="about">
         <h1>Hi, I'm Josh DeFriez</h1>
         <p> I graduated in 2015 from Utah State University with a BS in Economics and a BA in International Relations, and from the University of Chicago in 2016 with an MA in Social Sciences. </p>
         <div> PORTFOLIO
