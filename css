@@ -1,9 +1,16 @@
+body {
+  background-color:#fafafa;
+}
+
 /* the navigation bar */
 .navbar {
   overflow: hidden;
-  background-color: #e8ecf2;
+  background-color: #fafafa;
   position: fixed;
+  z-index: 1;
   top: 0;
+  left: 0;
+  right: 0;
   width: 100%;
   height: 70px;
 }
@@ -11,35 +18,33 @@
 .navbar a {
   float: left;
   display: block;
-  color: #000000;
+  color: black;
   text-align: center;
   padding: 12px 25px;
   text-decoration: none;
-  font-size: 180%;
+  font-size: 160%;
   font-family: 'Open Sans', sans-serif;
 }
 
 .navbar a:last-child {
   float: right;
   display: block;
-  color: #000000;
+  color: black;
   text-align: center;
-  padding: 10px 16px;
+  padding: 0px 40px;
   text-decoration: none;
   font-size: 270%;
   font-family: 'Alegreya Sans SC', sans-serif;
 }
 
-
-
 .fixed-bg {
-  background-image: url("https://images.pexels.com/photos/65911/winter-nature-season-trees-65911.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb");
+  background-image: url("https://images.pexels.com/photos/316466/pexels-photo-316466.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb");
     /* Set a specified height, or the minimum height for the background image */
-    min-height: 500px;
+    min-height: 800px;
     /* Set background image to fixed (don't scroll along with the page) */
     background-attachment: fixed;
     /* Center the background image */
-    background-position: center;
+    background-position: top;
     /* Set the background image to no repeat */
     background-repeat: no-repeat;
     /* Scale the background image to be as large as possible */
@@ -47,13 +52,47 @@
 }
 
 h1 {
-  font-family: 'Roboto', sans-serif;
-  font-weight: normal;
-  padding: 12px 20px;
-  margin-left: 0;
-  font-size: 170%
+  font-family: 'Alegreya Sans SC', sans-serif;
+  font-size: 250%;
+}
+
+h2 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 200%;
 }
 
 p {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Roboto', sans-serif;
+}
+
+
+p.clear {
+  clear: left;
+}
+  
+.bdy-image {
+  margin-left: 0;
+}
+.fixed-bg2 {
+  background-image: url("https://images.pexels.com/photos/286559/pexels-photo-286559.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb");
+    /* Set a specified height, or the minimum height for the background image */
+    min-height: 800px;
+    /* Set background image to fixed (don't scroll along with the page) */
+    background-attachment: fixed;
+    /* Center the background image */
+    background-position: top;
+    /* Set the background image to no repeat */
+    background-repeat: no-repeat;
+    /* Scale the background image to be as large as possible */
+    background-size: cover;
+}
+
+.contactIcons {
+  margin-top: 25px;
+  margin-left: 25px;
+}
+
+.thumbnail {
+  width:50%;
+  height:50%;
 }
