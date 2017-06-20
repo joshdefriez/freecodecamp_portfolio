@@ -1,30 +1,64 @@
-  <head>
-    <title>Josh DeFriez</title>
-    <link href="https://fonts.googleapis.com/css?family=Alegreya+Sans+SC|Open+Sans|Roboto|Tulpen+One" rel="stylesheet">
-  </head>
-<div id="container">
-  <body>
-    <div id="home">
+<head>
+  <title>Josh DeFriez</title>
+  <link href="https://fonts.googleapis.com/css?family=Alegreya+Sans+SC|Open+Sans|Roboto|Tulpen+One" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+  <div class="container-fluid thin-black-border">
+  <div id="home" class="thin-black-border">
+  </div>
+<div class="navbar thin-black-border">
+  <a href=#home>Home</a>
+  <a href=#about>About</a>
+  <a href=#portfolio>Portfolio</a>
+  <a href=#contact>Contact</a>
+  <a class="JoshDeFriez" style="float:right"><b>Josh DeFriez</b></a>
+  </div>
+  <div class="fixed-bg thin-black-border">
+  </div>
+    <div id="about" class="row thin-black-border">
+      <div class="col-md-12">
+        <h1 style><b>Full-Stack Web Developer</b></h1>
+      </div>
+      <div class="col-md-6 thin-black-border">
+      <div class="thin-black-border"><h2>About</h2>
+      </div>
+  <div>
+    <p class="clear text-left thin-black-border">I'm a Chicago-based market researcher working to expand my web development skills. I'm originally from Utah, but I've lived all around the world. My academic background is in the social sciences, with a focus on 20th century Chinese history, economics, and politics.</p>
     </div>
-  <div class="navbar">
-    <a href=#home>Home</a>
-    <a href=#about>About</a>
-    <a href=#portfolio>Portfolio</a>
-    <a href=#contact>Contact</a>
-    <a class="JoshDeFriez" style="float:right"><b>Josh DeFriez</b></a>
-    </div>
-    <div class="fixed-bg">
-    </div>
-      <div id="about">
-        <h1>Hi, I'm Josh DeFriez</h1>
-        <p> I graduated in 2015 from Utah State University with a BS in Economics and a BA in International Relations, and from the University of Chicago in 2016 with an MA in Social Sciences. </p>
-        <div> PORTFOLIO
-          <div> CONTACT
-          </div>
+        <div id="portfolio" class="thin-black-border">
+          <h2>Portfolio</h2>
+        </div>
+        <div class="row">
+          <div>
+          <img class="thumbnail" src="https://images.pexels.com/photos/316466/pexels-photo-316466.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</img> </div>
+        <div>
+          <img class="thumbnail" src="https://images.pexels.com/photos/316466/pexels-photo-316466.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</img> </div></div>
+    <div class="row">
+      <div>
+          <img class="thumbnail" src="https://images.pexels.com/photos/316466/pexels-photo-316466.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</img> </div>
+    <div>
+      <img class="thumbnail" src="https://images.pexels.com/photos/316466/pexels-photo-316466.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</img> </div></div>
+<div class="row">
+  <div>
+          <img class="thumbnail" src="https://images.pexels.com/photos/316466/pexels-photo-316466.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</img> </div>
+<div>
+  <img class="thumbnail" src="https://images.pexels.com/photos/316466/pexels-photo-316466.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</img> </div></div>
+        <div class="col-xs-1">
         </div>
       </div>
-    </div>
-  </div>
 </div>
-  </body>
-</html>
+    <div class= "fixed-bg2">
+      <span class="contactIcons fa-stack fa-lg" id="contact">
+        <h2>Contact</h2>
+        <a href="mailto:jdefriez@gmail.com"><i class="fa fa-envelope-o" style="font-size:110px"></i></a>
+        <a href="https://github.com/joshdefriez"><i class="fa fa-github-square" style="font-size:125px"></i></a>
+         <a href="https://codepen.io/joshdefriez/"><i class="fa fa-codepen" style="font-size:110px"></i></a>
+        <a href="https://www.linkedin.com/in/josh-defriez-bb346a51/"><i class="fa fa-linkedin-square" style="font-size:125px"></i>
+                  <a href="https://www.facebook.com/jdefriez"><i class="fa fa-facebook-square" style="font-size:125px"></i></a>
+                  <a href="https://twitter.com/jdefriez"><i class="fa fa-twitter-square" style="font-size:125px"></i>
+           </span>
+        </div>
+      </div>
+      </div>
+    </body>
